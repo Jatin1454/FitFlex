@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FitFlex</string>
+    <string name="email">Email</string>
+    <string name="track_your_daily_progress">Track your daily progress</string>
+    <string name="string1">Save your progress in one application and track your fitness level</string>
+    <string name="get_started">Get Started</string>
+    <string name="log_in">Log In</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_out">sign_out</string>
+    <string name="profile">Profile</string>
+    <string name="create_account">Create\nAccount</string>
+    <string name="string2">Already have an account?</string>
+    <string name="forgot_npassword">Forgot\nPassword?</string>
+    <string name="forgot_string">Don\'t worry! It happens. Please enter the email associated with your account.</string>
+    <string name="submit">Submit</string>
+</resources>

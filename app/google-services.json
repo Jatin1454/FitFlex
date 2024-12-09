@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "222013449795",
+    "project_id": "fitflex-5aa3f",
+    "storage_bucket": "fitflex-5aa3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222013449795:android:b95f98d06aeecfa64fd6f6",
+        "android_client_info": {
+          "package_name": "com.lightweight.fitflex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqAD_my52FYeJKv_wSku8EBBIAgFktvvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

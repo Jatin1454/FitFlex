@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your weight"
+        android:inputType="numberDecimal" />
+
+    <RadioGroup
+        android:id="@+id/rg_physique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_lean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lean" />
+
+        <RadioButton
+            android:id="@+id/rb_muscular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muscular" />
+
+        <RadioButton
+            android:id="@+id/rb_toned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toned" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_generate_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Workout Plan" />
+
+    <!-- Add a TextView or ListView to display the workout plan -->
+    <TextView
+        android:id="@+id/tv_workout_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+</LinearLayout>

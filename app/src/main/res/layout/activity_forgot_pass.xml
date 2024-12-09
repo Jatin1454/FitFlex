@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="25dp">
+
+        <ImageView
+            android:id="@+id/rstImage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/img5"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/forgotText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:fontFamily="@font/lufga_black"
+        android:text="@string/forgot_npassword"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/lufga_black"
+        android:text="@string/forgot_string"
+        android:textColor="@color/blue"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/rstemail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="35dp"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="6dp"
+        android:fontFamily="@font/lufga_regular"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="6dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/rstButton"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button_back2"
+        android:fontFamily="@font/lufga_medium"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
